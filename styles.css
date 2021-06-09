@@ -58,6 +58,12 @@ body {
     bottom: 0;
 }
 
+/* Class for opening Modal */
+.show-modal {
+    display: block;
+}
+
+
 .modal {
     padding: 1em 1.5em;
     position: absolute;
