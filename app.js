@@ -6,13 +6,12 @@ const closeBtn = document.querySelector('.close-modal');
 const overlay = document.querySelector('.overlay');
 
 
-const showModal = () => {
+const modalFunction = () => {
     overlay.classList.add('show-modal');
 }
 
-
 openBtn.forEach(btn => {
-    btn.addEventListener('click', showModal)
+    btn.addEventListener('click', modalFunction)
 
     console.log(btn)
 });
